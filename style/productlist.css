@@ -3,7 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
     font-family: 'Clash Display', sans-serif;
 }
 .hedr1{
@@ -33,13 +32,26 @@
 
 .navbr{
     display: flex;
+    list-style: none;
 }
-
+.ffk{
+    margin-left: 30px;
+}
 .sekl12{
     display:flex;
-    height: 759px;
-    width: 50%;
-
+    height: 790px;
+    width: 720px;
+}
+.section1{
+    display: flex;
+}
+.thedandychair{
+    display: flex;
+    justify-content: flex-start;
+    padding: 120px;
+    flex-direction: column;
+    height: 790px;
+    width: 720px;
 }
 @media screen and (max-width:391px) {
 
